@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/Assets/img/pokemon-icon.webp" type="image/x-icon">
+    <title>Mi pokédex</title>
+
+    <link rel="stylesheet" href="/Css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Pokédex</h1>
+        <input type="text" id="search" placeholder="Busca tu pokémon por nombre o número">
+
+        <select id="type-filter">
+            <option value="all">Todos los tipos</option>
+        </select>
+    </header>
+
+    <main>
+        <div id="pokemon-container" class="container">
+        </div>
+        <button id="load-more">Cargar más</button>
+    </main>
+
+    <script src="/Js/main.js"></script>
+</body>
+</html>
